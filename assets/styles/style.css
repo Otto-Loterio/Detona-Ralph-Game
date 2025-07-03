@@ -1,0 +1,44 @@
+.principal{
+    display: flex;
+    flex-direction: column;
+    height: 100vh ;
+    background-image: url("../img/parede.png");
+}
+
+.menu{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 90px;
+    width: 100%;
+    background-image: linear-gradient(rgb(7, 7, 7), rgb(7, 7, 7));
+    border-bottom: 2px solid rgb(255, 215, 0);
+}
+
+ .painel{
+    margin-top: 50px;
+    display: flex;
+    /* border: 2px solid rgb(255, 0, 0); */
+    align-items: center;
+    justify-content: center;
+    padding-bottom: 30px;
+    padding-top: 30px;
+ }
+
+ .quadrado{
+    background-color: rgb(237, 255, 136);
+    width: 150px;
+    height: 150px;
+    border: 1px solid black;
+ }
+
+ .inimigo{
+    background-image: url(../img/ralph.png);
+    background-size: cover;
+ }
+
+ .menu-vidas{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+ }
